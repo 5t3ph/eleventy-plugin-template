@@ -24,7 +24,7 @@ Example, assuming you place all your repositories within the same parent directo
 const pluginName = require("../plugin-directory");
 
 module.exports = (eleventyConfig) => {
-  eleventyConfig.addPlugin(pluginName, { optionName: 'if needed' );
+  eleventyConfig.addPlugin(pluginName, { optionName: 'if needed' });
 };
 ```
 
